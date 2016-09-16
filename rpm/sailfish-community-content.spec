@@ -37,15 +37,15 @@ Sample Picture content
 
 %files music 
 %defattr(-,nemo,nemo,-)
-/home/nemo/Community-Music/*
+/home/nemo/Music/Community-Music/*
 
 %files video 
 %defattr(-,nemo,nemo,-)
-/home/nemo/Community-Video/*
+/home/nemo/Videos/Community-Video/*
 
 %files picture 
 %defattr(-,nemo,nemo,-)
-/home/nemo/Community-Picture/*
+/home/nemo/Pictures/Community-Picture/*
 
 %changelog
 * Wed Sep 16 2016 Nokius
