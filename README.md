@@ -6,8 +6,13 @@ Thanks to James Noori fot the rights to use the unbox video
 
 ## Picture
 
+![Thumbnail](https://c1.staticflickr.com/9/8610/16516561259_73433e67e1_s.jpg) [ Kārlis Dambrāns - Jolla Sailfish tablet ](https://www.flickr.com/photos/janitors/16516561259/) Attribution 2.0 Generic (CC BY 2.0)
 
+![Thumbnail](https://c2.staticflickr.com/6/5590/15245904112_26d35b7763_s.jpg) [ Maurizio Pesce - Jolla ](https://www.flickr.com/photos/pestoverde/15245904112/) Attribution 2.0 Generic (CC BY 2.0)
 
+![Thumbnail](https://c2.staticflickr.com/8/7615/17134698162_dace45e7ff_s.jpg) [ Maurizio Pesce - Jolla Tablet ](https://www.flickr.com/photos/pestoverde/17134698162/) Attribution 2.0 Generic (CC BY 2.0)
+
+![Thumbnail](https://c1.staticflickr.com/5/4022/4680429188_cd13157d69_s.jpg) [ WIDTTF - ryans sail 009 ](https://www.flickr.com/photos/widttf/4680429188/) Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
 
 ## Muisc
 
