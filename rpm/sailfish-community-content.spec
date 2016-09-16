@@ -4,7 +4,7 @@ Summary:    Preloded Community Content
 Version:    0.0.1
 Release:    1
 Group:      System
-Architecture: noarch
+BuildArch:  noarch
 License:    TBD
 Source0:    %{name}-%{version}.tar.bz2
 
