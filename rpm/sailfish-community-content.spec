@@ -38,7 +38,7 @@ Sample Picture content
 %install
 rm -rf %{buildroot}
 
-%install picture
+# create Picture conntent
 mkdir -p %{buildroot}/home/nemo/Music/Community-Picture/*
 cp -R Community-Music/* %{buildroot}/home/nemo/Picture/Community-Picture/*
 
