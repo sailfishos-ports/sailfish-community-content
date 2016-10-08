@@ -39,8 +39,8 @@ Sample Picture content
 rm -rf %{buildroot}
 
 # create Picture conntent
-mkdir -p %{buildroot}/home/nemo/Music/Community-Picture/*
-cp -R Community-Music/* %{buildroot}/home/nemo/Picture/Community-Picture/*
+mkdir -p %{buildroot}/home/nemo/Pictures/Community-Picture
+cp -R Community-Pictures/* %{buildroot}/home/nemo/Picture/Community-Picture
 
 #%files music 
 #%defattr(-,nemo,nemo,-)
