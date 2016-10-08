@@ -44,7 +44,7 @@ cp -R Community-Music/* %{buildroot}/home/nemo/Music/Community-Music/
 
 # create Video conntent
 mkdir -p %{buildroot}/home/nemo/Videos/Community-Video
-cp -R Community-Video/* %{buildroot}/home/nemo/Video/Community-Video/
+cp -R Community-Video/* %{buildroot}/home/nemo/Videos/Community-Video/
 
 # create Picture conntent
 mkdir -p %{buildroot}/home/nemo/Pictures/Community-Picture
