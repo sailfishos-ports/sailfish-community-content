@@ -11,19 +11,19 @@ Source0:    %{name}-%{version}.tar.bz2
 %description
 Sample content 
 
-%package music
-Summary:    Preloded Community Content Music
-Group:      System
+#%package music
+#Summary:    Preloded Community Content Music
+#Group:      System
 
-%description music
-Sample Music content 
+#%description music
+#Sample Music content 
 
-%package video
-Summary:    Preloded Community Content Video
-Group:      System
+#%package video
+#Summary:    Preloded Community Content Video
+#Group:      System
 
-%description video
-Sample Video content 
+#%description video
+#Sample Video content 
 
 %package picture
 Summary:    Preloded Community Content Picture
@@ -35,17 +35,27 @@ Sample Picture content
 %prep
 %setup -q -n %{name}-%{version}
 
-%files music 
-%defattr(-,nemo,nemo,-)
-/home/nemo/Music/Community-Music/*
+%install
+rm -rf %{buildroot}
 
-%files video 
-%defattr(-,nemo,nemo,-)
-/home/nemo/Videos/Community-Video/*
+%install picture
+mkdir -p %{buildroot}/home/nemo/Music/Community-Picture/*
+cp -R Community-Music/* %{buildroot}/home/nemo/Picture/Community-Picture/*
+
+#%files music 
+#%defattr(-,nemo,nemo,-)
+#/home/nemo/Music/Community-Music/*
+
+#%files video 
+#%defattr(-,nemo,nemo,-)
+#/home/nemo/Videos/Community-Video/*
 
 %files picture 
 %defattr(-,nemo,nemo,-)
 /home/nemo/Pictures/Community-Picture/*
+
+%clean
+rm -rf %{buildroot}
 
 %changelog
 * Wed Sep 16 2016 Nokius
