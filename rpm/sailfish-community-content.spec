@@ -39,7 +39,7 @@ Sample Picture content
 rm -rf %{buildroot}
 
 # create Muisc conntent
-mkdir -p %{buildroot}/home/nemo/Music/Community-Musoc
+mkdir -p %{buildroot}/home/nemo/Music/Community-Music
 cp -R Community-Music/* %{buildroot}/home/nemo/Music/Community-Music/
 
 # create Video conntent
