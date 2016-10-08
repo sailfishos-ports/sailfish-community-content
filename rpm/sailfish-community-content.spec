@@ -51,15 +51,15 @@ mkdir -p %{buildroot}/home/nemo/Pictures/Community-Picture
 cp -R Community-Picture/* %{buildroot}/home/nemo/Pictures/Community-Picture/
 
 %files music 
-%defattr(-,nemo,nemo,-)
+%defattr(-,root,root,-)
 /home/nemo/Music/Community-Music/*
 
 %files video 
-%defattr(-,nemo,nemo,-)
+%defattr(-,root,root,-)
 /home/nemo/Videos/Community-Video/*
 
 %files picture 
-%defattr(-,nemo,nemo,-)
+%defattr(-,root,root,-)
 /home/nemo/Pictures/Community-Picture/*
 
 %clean
