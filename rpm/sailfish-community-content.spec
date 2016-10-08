@@ -40,7 +40,7 @@ rm -rf %{buildroot}
 
 # create Picture conntent
 mkdir -p %{buildroot}/home/nemo/Pictures/Community-Picture
-cp -R Community-Picture/* %{buildroot}/home/nemo/Picture/Community-Picture/
+cp -R Community-Picture/* %{buildroot}/home/nemo/Pictures/Community-Picture/
 
 #%files music 
 #%defattr(-,nemo,nemo,-)
