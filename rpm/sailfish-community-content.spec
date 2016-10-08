@@ -7,6 +7,7 @@ Group:      System/GUI/Other
 BuildArch:  noarch
 License:    TBD
 Source0:    %{name}-%{version}.tar.bz2
+URL:		https://github.com/Nokius/sailfish-community-content
 
 %description
 Sample content 
