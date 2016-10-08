@@ -3,7 +3,7 @@ Name:       sailfish-community-content
 Summary:    Preloded Community Content
 Version:    0.0.1
 Release:    1
-Group:      System
+Group:      System/GUI/Other
 BuildArch:  noarch
 License:    TBD
 Source0:    %{name}-%{version}.tar.bz2
@@ -13,21 +13,21 @@ Sample content
 
 %package music
 Summary:    Preloded Community Content Music
-Group:      System
+Group:      System/GUI/Other
 
 %description music
 Sample Music content 
 
 %package video
 Summary:    Preloded Community Content Video
-Group:      System
+Group:      System/GUI/Other
 
 %description video
 Sample Video content 
 
 %package picture
 Summary:    Preloded Community Content Picture
-Group:      System
+Group:      System/GUI/Other
 
 %description picture
 Sample Picture content 
