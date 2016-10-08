@@ -1,10 +1,12 @@
-# Some demo content for [SFOS](https://sailfishos.org/) Ports
+# Some demo content for [Sailfish™OS](https://sailfishos.org/) Ports
+
+Happy demoing your work \o/
 
 ## Video
 
 ![Thumbnail](https://c6.staticflickr.com/8/7014/6740323189_168c317309_s.jpg) [ Anita Hart - moon jellies [video] ](https://www.flickr.com/photos/anitakhart/6740323189) Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
 
-Thanks to James Noori for the rights to use the unbox video 
+Thanks to James Noori for the rights to use the unboxing video 
 
 ## Picture
 
@@ -24,3 +26,6 @@ Thanks to James Noori for the rights to use the unbox video
 
 ![cover](https://imgjam2.jamendo.com/albums/s155/155732/covers/1.75.jpg) [ Tyler Adam  - Good Good (Original Mix) (2016) ](https://www.jamendo.com/track/1311175/good-good-original-mix)
 
+## Info
+
+[OBS](build.merproject.org) is not bulding the rpms coz of warnings but local it works well :)
