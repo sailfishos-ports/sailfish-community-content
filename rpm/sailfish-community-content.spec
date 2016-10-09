@@ -53,17 +53,17 @@ cp -R Community-Picture/* %{buildroot}/home/nemo/Pictures/Community-Picture/
 
 %files music 
 %defattr(644,nemo,nemo,755)
-%attr(-,nemo,nemo) /home/nemo/Music/Community-Music/*
+#%attr(-,nemo,nemo) /home/nemo/Music/Community-Music/*
 /home/nemo/Music/Community-Music/*
 
 %files video 
 %defattr(644,nemo,nemo,755)
-%attr(-,nemo,nemo) /home/nemo/Videos//Community-Video/*
+#%attr(-,nemo,nemo) /home/nemo/Videos/Community-Video/*
 /home/nemo/Videos/Community-Video/*
 
 %files picture 
 %defattr(644,nemo,nemo,755)
-%attr(-,nemo,nemo) /home/nemo/Pictures/Community-Picture/*
+#%attr(-,nemo,nemo) /home/nemo/Pictures/Community-Picture/*
 /home/nemo/Pictures/Community-Picture/*
 
 %clean
