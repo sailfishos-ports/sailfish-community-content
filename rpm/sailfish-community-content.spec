@@ -54,6 +54,7 @@ cp -R Community-Picture/* %{buildroot}/home/nemo/Pictures/Community-Picture/
 %files music 
 %defattr(644,nemo,nemo,755)
 #%attr(-,nemo,nemo) /home/nemo/Music/Community-Music/*
+%dir /home/nemo/Music/Community-Music
 /home/nemo/Music/Community-Music/*
 
 %files video 
