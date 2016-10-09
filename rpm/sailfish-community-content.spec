@@ -52,15 +52,18 @@ mkdir -p %{buildroot}/home/nemo/Pictures/Community-Picture
 cp -R Community-Picture/* %{buildroot}/home/nemo/Pictures/Community-Picture/
 
 %files music 
-%defattr(-,root,root,-)
+%defattr(644,nemo,nemo,755)
+%attr(-,nemo,nemo) /home/nemo/Music/Community-Music/*
 /home/nemo/Music/Community-Music/*
 
 %files video 
-%defattr(-,root,root,-)
+%defattr(644,nemo,nemo,755)
+%attr(-,nemo,nemo) /home/nemo/Music/Community-Video/*
 /home/nemo/Videos/Community-Video/*
 
 %files picture 
-%defattr(-,root,root,-)
+%defattr(644,nemo,nemo,755)
+%attr(-,nemo,nemo) /home/nemo/Music/Community-Picture/*
 /home/nemo/Pictures/Community-Picture/*
 
 %clean
