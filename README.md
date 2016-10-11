@@ -28,4 +28,7 @@ Thanks to James Noori for the rights to use the unboxing video
 
 ## Info
 
-[OBS](build.merproject.org) is not bulding the rpms coz of warnings but local it works well :)
+
+[OBS](https://build.merproject.org/package/show/home:Nokius/sailfish-community-content#) is now bulding well :)
+but of course u can build it even local :P
+
